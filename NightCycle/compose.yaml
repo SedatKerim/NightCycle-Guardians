@@ -1,0 +1,7 @@
+﻿services:
+  flightbooking.apı:
+    image: flightbooking.apı
+    build:
+      context: .
+      dockerfile: FlightBooking.API/Dockerfile
+
