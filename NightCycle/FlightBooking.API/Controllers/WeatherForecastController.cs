@@ -23,7 +23,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public string Get()
     {
-        return "sedat";
+        return "sedat kerim";
     }
     // public IEnumerable<WeatherForecast> Get()
     // {
